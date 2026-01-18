@@ -1,0 +1,20 @@
+services:
+  tasks-service:
+    build: ./tasks-service
+    ports:
+      - "3001:3001"
+    depends_on:
+      - user-service
+    networks:
+      - micro-net
+
+  user-service:
+    build: ./user-service
+    ports:
+      - "5000:5000"   # opcional, só pra testar isolado
+    networks:
+      - micro-net
+
+networks:
+  micro-net:
+    driver: bridge

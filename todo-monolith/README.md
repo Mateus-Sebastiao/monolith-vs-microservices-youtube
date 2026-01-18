@@ -1,3 +1,5 @@
+TODO Monolith using Nodejs with Express
+
 Installing and Update NVM
 
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
@@ -16,6 +18,8 @@ npm install express
 
 ---
 
+Testes:
+
 http://localhost:3000/
 http://localhost:3000/tasks
 http://localhost:3000/tasks/:id
@@ -28,4 +32,4 @@ Marcar como concluída (id 3 por exemplo)
 curl -X PUT http://localhost:3000/tasks/3/complete
 
 Deletar
-curl -X DELETE http://localhost:3000/tasks/1
+curl -X DELETE http://localhost:3000/tasks/3
