@@ -44,3 +44,7 @@ O objetivo é mostrar na prática:
 2. Escolha qual implementação quer rodar:
     - Monolito → vá para a pasta todo-monolith e siga o README local
     - Microserviços → vá para a pasta todo-microservices e siga o README local
+
+## Contribuições
+
+Sinta-se à vontade para abrir issues ou PRs com melhorias, correções ou sugestões de novos exemplos!
