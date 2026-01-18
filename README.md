@@ -37,8 +37,8 @@ O objetivo é mostrar na prática:
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/monolith-vs-microservices-todo.git
-   cd monolith-vs-microservices-todo
+   git clone https://github.com/Mateus-Sebastiao/monolith-vs-microservices-youtube
+   cd monolith-vs-microservices-youtube
    ```
 
 2. Escolha qual implementação quer rodar:
